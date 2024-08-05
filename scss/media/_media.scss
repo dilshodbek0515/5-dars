@@ -1,0 +1,108 @@
+@media (max-width:1300px) {
+    .brends {
+        padding: 40px 15px;
+    }
+}
+
+@media (max-width:1138px) {
+    .hero_list {
+        line-height: 10px;
+    }
+}
+
+@media (max-width:1090px) {
+    .cards_content {
+        max-width: 850px;
+        transition: 1s;
+    }
+
+    .brends {
+        height: auto !important;
+    }
+
+    .brend_card {
+        grid-template-columns: 1fr 1fr !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width:1030px) {
+    .hero_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main_collection {
+        padding: 50px 30px;
+    }
+}
+
+@media (max-width:885px) {
+    .cards_content {
+        max-width: 700px;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        height: auto !important;
+    }
+
+    .cards {
+        height: auto;
+    }
+
+    .cards_child_text1 {
+        max-width: 500px !important;
+    }
+
+}
+
+
+
+@media (max-width:740px) {
+    .cards_content {
+        max-width: 500px;
+    }
+}
+
+@media (max-width:600px) {
+    .brend_card {
+        grid-template-columns: 1fr !important;
+    }
+
+    .brends h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width:530px) {
+    .cards_content {
+        max-width: 300px;
+    }
+
+    .cards_child_text2 {
+        display: none;
+    }
+
+    .img_text {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width:410px) {
+    .hero_btn_content {
+        flex-direction: column;
+    }
+
+    .hero_title {
+        font-size: 10px;
+    }
+
+    .hero_list {
+        line-height: 10px;
+        margin-bottom: 10px;
+    }
+
+    .hero_img {
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,313 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_bg {
+  width: 100%;
+  background: #F5F5F5;
+}
+
+.main_collection {
+  max-width: 1440px;
+  height: 1064px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 95px 222px;
+}
+.main_collection .hero_title {
+  font-family: "roboto700";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 28px;
+}
+.main_collection .hero_list {
+  font-family: "roboto400";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 90px;
+}
+.main_collection .hero_img {
+  max-width: 996px;
+  height: 560px;
+  border-radius: 50px;
+  margin-bottom: 70px;
+}
+.main_collection .hero_btn_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+.main_collection .hero_btn_content .hero_btn {
+  width: 189px;
+  height: 40px;
+  background: #6F2CFF;
+  cursor: pointer;
+  border: 1px solid #6F2CFF;
+  font-family: "roboto400";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 30px;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+.main_collection .hero_btn_content .hero_btn:hover {
+  background: none;
+  transition: 0.5s;
+  color: #6F2CFF;
+}
+
+.brend_bg {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.brends {
+  max-width: 1440px;
+  height: 741px;
+  padding: 77px 195px 100px 195px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  flex-direction: column;
+}
+.brends h2 {
+  font-family: "roboto700";
+}
+.brends .brend_card {
+  max-width: 1050px;
+  height: 448px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.brends .brend_card .brend_child {
+  height: 438px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+  background: #F5F5F5;
+  box-shadow: 0px 2px 4px 0px rgba(192, 192, 192, 0.5019607843);
+}
+.brends .brend_card .brend_child .brend_img1 {
+  width: 100%;
+  height: 205px;
+  border-radius: 7px 7px 0px 0px;
+}
+.brends .brend_card .brend_child .brend_img2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.brends .brend_card .brend_child .brend_text {
+  max-width: 200px;
+  font-family: "roboto700";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  color: #6F2CFF;
+}
+
+@font-face {
+  font-family: "roboto400";
+  src: url("../../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto700";
+  src: url("../../fonts/Roboto-Bold.ttf");
+}
+.card_bg {
+  background: #F5F5F5;
+  width: 100%;
+}
+
+.cards {
+  max-width: 1440px;
+  height: 950px;
+  padding: 67px 16px 68px 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cards .cards_text1 {
+  font-family: "roboto700";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+.cards .cards_text2 {
+  font-family: "roboto400";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-top: 12px;
+}
+.cards .cards_content {
+  width: 1050px;
+  height: 687px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 31px;
+}
+.cards .cards_content .cards_child {
+  height: 199px;
+  background: #17002E;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 30px 22px 30px;
+  border-radius: 10px;
+}
+.cards .cards_content .cards_child .cards_img_content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cards .cards_content .cards_child .cards_img_content .card_img {
+  width: 53px;
+  height: 50px;
+}
+.cards .cards_content .cards_child .cards_img_content .img_text {
+  font-family: "Roboto700";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #F5F5F5;
+}
+.cards .cards_content .cards_child .cards_child_text1 {
+  max-width: 380px;
+  font-family: "Roboto400";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #F5F5F5;
+  margin-top: 17px;
+}
+.cards .cards_content .cards_child .cards_child_text2 {
+  font-family: "Roboto400";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #F5F5F5;
+  margin-top: 10px;
+}
+.cards .cards_content .cards_child hr {
+  max-width: 300px;
+  height: 2px;
+  background-color: #F5F5F5;
+  margin-top: 10px;
+}
+
+@media (max-width: 1300px) {
+  .brends {
+    padding: 40px 15px;
+  }
+}
+@media (max-width: 1138px) {
+  .hero_list {
+    line-height: 10px;
+  }
+}
+@media (max-width: 1090px) {
+  .cards_content {
+    max-width: 850px;
+    transition: 1s;
+  }
+  .brends {
+    height: auto !important;
+  }
+  .brend_card {
+    grid-template-columns: 1fr 1fr !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 1030px) {
+  .hero_img {
+    width: 100%;
+    height: 100%;
+  }
+  .main_collection {
+    padding: 50px 30px;
+  }
+}
+@media (max-width: 885px) {
+  .cards_content {
+    max-width: 700px;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+    height: auto !important;
+  }
+  .cards {
+    height: auto;
+  }
+  .cards_child_text1 {
+    max-width: 500px !important;
+  }
+}
+@media (max-width: 740px) {
+  .cards_content {
+    max-width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  .brend_card {
+    grid-template-columns: 1fr !important;
+  }
+  .brends h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 530px) {
+  .cards_content {
+    max-width: 300px;
+  }
+  .cards_child_text2 {
+    display: none;
+  }
+  .img_text {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 410px) {
+  .hero_btn_content {
+    flex-direction: column;
+  }
+  .hero_title {
+    font-size: 10px;
+  }
+  .hero_list {
+    line-height: 10px;
+    margin-bottom: 10px;
+  }
+  .hero_img {
+    border-radius: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

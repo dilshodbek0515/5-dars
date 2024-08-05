@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+$bg-blue: #6F2CFF;
+$bg-black: #000000;
+
+
+@import "./hero/hero";
+@import "./brend/brend";
+@import "./cards/cards";
+
+@import "./media/media";
